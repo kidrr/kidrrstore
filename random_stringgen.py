@@ -1,5 +1,5 @@
 # Generates custom number of strings with randon chars and numbers
-
+# test branch
 import random, string
 def random_chars(a):
     chars = string.letters + string.digits
