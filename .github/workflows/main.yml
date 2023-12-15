@@ -16,5 +16,5 @@ jobs:
       - name: Print Hello
         run: |
           ls -la
-          echo "KDTEST: ${{ env.KDTEST }}"
+          echo "KDTEST: ${{ vars.KDTEST }}"
           env
