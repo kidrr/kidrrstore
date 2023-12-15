@@ -16,3 +16,4 @@ jobs:
       - name: Print Hello
         run: |
           ls -la
+          echo $KDTEST
